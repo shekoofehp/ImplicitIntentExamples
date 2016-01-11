@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <Button
+    android:id="@+id/browseBtn"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Browse Web"
+    android:onClick="browseWeb"
+    android:layout_centerVertical="true"
+    android:layout_centerHorizontal="true"
+    />
+    <Button
+        android:id="@+id/callBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Make a Call "
+        android:onClick="makeCall"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:id="@+id/gmapBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Map "
+        android:onClick="showMap"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:id="@+id/contactBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose Contacts "
+        android:onClick="chooseContacts"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        />
+
+
+
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:src="@drawable/nini"
+        />
+
+    <Button
+    android:id="@+id/image_button"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Get Different Image"
+    android:onClick="getImage"
+    android:layout_centerVertical="true"
+    android:layout_centerHorizontal="true"
+    />
+    <Button
+        android:id="@+id/send_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Image "
+        android:onClick="sendImage"
+        android:layout_below="@id/image_button"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        />
+    <Button
+        android:id="@+id/goBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go To the second Activity"
+        android:onClick="doGo"
+        android:layout_below="@id/send_button"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        />
+
+
+</RelativeLayout>
